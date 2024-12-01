@@ -12,7 +12,7 @@ int main()
         printf("\n1.sum\t\t2.sub\t\t3.mul\t\t4.div\n5.sqrt\t\t6.cbrt\t\t7.sq\t\t8.cube\n");
         printf("9.sin\t\t10.cos\t\t11.tan\t\t12.cosec\n13.sec\t\t14.cot\t\t15.invrs\t16.ln\n");
         printf("17.log10\t18.exponent\t19.exp(e^x)\t20.factorial\n21.asin\t\t22.acos\t\t23.atan\t\t24.deg->rad\n");
-        printf("25.rad->deg\t26.deg->grade\t27.grade->deg\t28.grade->rad\n29.rad->grade\t30.Gamma func.\t31.Quad.Solver\t32.EXIT..\n");
+        printf("25.rad->deg\t26.deg->grade\t27.grade->deg\t28.grade->rad\n29.rad->grade\t30.Gamma func.\t31.Quad.Solver\t32.Mean\n33.EXIT..\n");
         printf("\ninput ch\n");
         scanf("%d", &ch);
         switch(ch)
@@ -241,6 +241,23 @@ int main()
             printf("\nx = %.lf, %.lf\n", ((-b1+sqrt(DS))/(2*a1)), ((-b1-sqrt(DS))/(2*a1)));
             break;
         case 32:
+        {
+            int o, array[30], sum_o=0, h;
+            printf("input array size\n");
+            scanf("%d", &o);
+            printf("input array elements\n");
+            for (h=0; h<o; h++)
+            {
+                scanf("%d", &array[h]);
+            }
+            for (h=0; h<o; h++)
+            {
+                sum_o+=array[h];
+            }
+            printf("\nrslt=%.2f\n", (float)sum_o/o);
+        }
+        break;
+        case 33:
             printf("\nExiting the Calc...\n\n======Hope it Helped======\n");
             exit(0);
             break;
