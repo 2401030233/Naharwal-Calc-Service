@@ -8,7 +8,8 @@ int main()
     printf("===========Welcome to Naharwal Caculator(Adv.)\n\n           Made by Rishabh Naharwal===========\n\n\n");
     while(1)
     {
-        printf("1.sum\t\t2.sub\t\t3.mul\t\t4.div\n5.sqrt\t\t6.cbrt\t\t7.sq\t\t8.cube\n");
+        printf("==============================================================\n");
+        printf("\n1.sum\t\t2.sub\t\t3.mul\t\t4.div\n5.sqrt\t\t6.cbrt\t\t7.sq\t\t8.cube\n");
         printf("9.sin\t\t10.cos\t\t11.tan\t\t12.cosec\n13.sec\t\t14.cot\t\t15.invrs\t16.ln\n");
         printf("17.log10\t18.exponent\t19.exp(e^x)\t20.factorial\n21.asin\t\t22.acos\t\t23.atan\t\t24.deg->rad\n");
         printf("25.rad->deg\t26.deg->grade\t27.grade->deg\t28.grade->rad\n29.rad->grade\t30.Gamma func.\t31.Quad.Solver\t32.EXIT..\n");
